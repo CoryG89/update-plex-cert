@@ -1,0 +1,26 @@
+{
+  "name": "update-plex-cert",
+  "version": "1.0.0",
+  "description": "Script to update plex certificate automatically on renewal",
+  "main": "update-plex-cert.js",
+  "scripts": {
+    "install-letsencrypt": "sudo cp update-plex-cert.sh /etc/letsencrypt/renewal-hooks/deploy/update-plex-cert.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoryG89/update-plex-cert.git"
+  },
+  "keywords": [
+    "plex",
+    "ssl",
+    "certificate",
+    "https",
+    "letsencrypt"
+  ],
+  "author": "Cory Gross",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CoryG89/update-plex-cert/issues"
+  },
+  "homepage": "https://github.com/CoryG89/update-plex-cert#readme"
+}
